@@ -34,7 +34,11 @@
     place-items: center;
         padding: 15rem 1rem;
       }
-      
+      .svg-image{
+        width:500px;
+        margin:50px;
+      }
+       
       .description{
           display:grid;
           background-color: rgb(153, 17, 58);
