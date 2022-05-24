@@ -62,13 +62,46 @@
         column-gap: 50px;
         list-style: none;  
     }
-      .project1,
-      .project2,
+      .project1{
+        border: 8px dotted rgb(241, 231, 231);
+        margin: 20px;
+        padding: 20px;
+      }
+      .project2{
+        border: 8px dotted rgb(241, 231, 231);
+        margin: 20px;
+        padding: 20px;
+      }
+
       .project3{
         border: 8px dotted rgb(241, 231, 231);
         margin: 20px;
         padding: 20px;
       }
+      .image-one{
+        background-image: url("image1.PNG");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height:200px;
+        margin:10px;
+}
+
+.image-two{
+  background-image: url("image2.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:150px;
+  margin:30px;
+}
+
+.image-three{
+  background-image: url("image3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  margin: 30px;
+}
+
 
     .experience {
         background-color: rgb(43, 1, 71);
@@ -83,9 +116,7 @@
         column-gap: 60px;
         list-style: none;  
 }
-       
-
-  
+      
 
     .footer{
         background-color: rgb(153, 17, 58);
