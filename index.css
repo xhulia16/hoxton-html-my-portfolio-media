@@ -1,0 +1,91 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(241, 231, 231);
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+    }
+    
+    .header {
+        background-color: rgb(53, 12, 37);
+    padding: 0.5rem 1rem;
+    
+      }
+
+      .header-links{
+        background-color: rgb(153, 17, 58);;
+        display: grid;
+        grid-auto-flow: column;
+        place-items: center;
+        padding: 20px;
+        list-style: none;
+        border-radius: 2px;
+    }
+
+    a{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(241, 231, 231);
+
+    }
+    
+      .main {
+        background-color: rgb(86, 39, 92);
+        display: grid;
+    place-items: center;
+        padding: 15rem 1rem;
+      }
+      
+      .description{
+          display:grid;
+          background-color: rgb(153, 17, 58);
+          color:rgb(241, 231, 231);
+          place-items: center;
+          width: 500px;
+          font-family: 'Courier New', Courier, monospace;
+          border: 8px double rgb(53, 12, 37);
+          padding: 20px;
+      }
+
+      .projects {
+        background-color: rgb(60, 31, 128);
+        display: grid;
+    place-items: center;
+        padding: 6rem 1rem;}
+
+    .project-list{
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 50px;
+        list-style: none;  
+    }
+      .project1,
+      .project2,
+      .project3{
+        border: 8px dotted rgb(241, 231, 231);
+        margin: 20px;
+        padding: 20px;
+      }
+
+    .experience {
+        background-color: rgb(43, 1, 71);
+        display: grid;
+    place-items: center;
+        padding: 6rem 1rem;
+      }
+
+.experience-list{
+  display: grid;
+        grid-auto-flow: column;
+        column-gap: 60px;
+        list-style: none;  
+}
+       
+
+  
+
+    .footer{
+        background-color: rgb(153, 17, 58);
+        display: grid;
+    place-items: center;
+        padding: 0.5rem 1rem;
+      }
