@@ -116,7 +116,26 @@
         column-gap: 60px;
         list-style: none;  
 }
-      
+      .icon1{
+        background-image: url("gmail.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50px;
+      }
+
+      .icon2{
+        background-image: url("youtube.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50px;
+      }
+
+      .icon3{
+        background-image: url("tik-tok.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50px;
+      }
 
     .footer{
         background-color: rgb(153, 17, 58);
